@@ -45,3 +45,7 @@ All requests in the application go through the API Gateway. The API Gateway is r
 # Distributed tracing using Zipkin
 
 All microservices register with the Zipkin service for distributed tracing. All logs and metrics can be viewed in the Zipkin server endpoint.
+
+# Docker Compose
+
+All the resources can be deployed using docker-compose file
